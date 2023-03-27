@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: poppin, Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, sans-serif; */
+
+}
+
+.w {
+    width: 1200px;
+    /* background-color: pink; */
+    margin: 80px auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?fd6m5w');
+    src: url('fonts/icomoon.eot?fd6m5w#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?fd6m5w') format('truetype'),
+        url('fonts/icomoon.woff?fd6m5w') format('woff'),
+        url('fonts/icomoon.svg?fd6m5w#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@keyframes rotation {
+    from{ -webkit-transform:rotate(0deg)}
+    to{ -webkit-transform:rotate(360deg) ;}
+
+}
+.rotate{
+    transform:rotate(360deg);
+    animation: rotation 10s linear infinite;
+    -moz-animation: rotation 10s linear infinite;
+    -webkit-animation: rotation 1-s linear infinite;
+    -o-animation: rotation 10s linear infinite;
+}
+.music_data {
+    display: flex;
+}
+
+.data_images {
+    margin: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.data_content {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.data_name h1 {
+    margin: 20px 0px;
+    float: left;
+    font-size: 31px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 70%;
+    margin-right: 10px
+}
+
+.data_singer {
+    margin-bottom: 10px;
+}
+
+.data_actions {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: icomoon;
+}
+
+.data_actions a {
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin: 0 50px 20px 0;
+    height: 40px;
+    width: 120px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+.player{
+
+    /* display: flex; */
+    /* justify-content:space-around; */
+    margin-top:50px ;
+    width: 500px;
+    height: 80px;
+    line-height: 80px;
+    /* background-color:#31c27c; */
+    border-radius: 50px;
+    font-family: "icomoon";
+    font-size: 40px;
+    color: rgb(141, 127, 127);
+}
+.mod_play::after{
+    content: "\ea15";
+
+}
+.playing::after{
+    content: "\ea16";
+}
+.mod_before::after{
+    content: "\ea18";
+}
+.mod_after::after{
+    content: "\ea19";
+}
+.mod_comment {
+    background-color: #fff;
+
+}
+
+ 
+
+ 
+.commnet {
+    position: absolute;
+    padding-left: 50px;
+    width: 1000px;
+}
+
+.comment_title h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.comment_title h2 span {
+    font-size: 14px;
+    color: #999;
+}
+
+.comment_box {
+    height: 100px;
+    width: 1000px;
+    border: 1px solid #999;
+    /* color:#999 */
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #f5f5f5;
+    resize: none;
+}
+
+
+.comment_send {
+    position: relative;
+    top: 20px;
+    right: -900px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #31c27c;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.comment_selected_titile {
+    padding: 20px 0px;
+    width: 1000px;
+    border-bottom: 1px solid #ccc;
+}
+
+.commenet_selected_titile h2 {
+    font-weight: 400;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.comment_list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 20px;
+
+}
+
+.comment_list a {
+    color: #999;
+    font-size: 16px;
+    font-family: poppin, Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, sans-serif;
+}
+
+.comment_list_one>div{
+    display: flex;
+
+}
+
+.comment_list_img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.comment_list_right div {
+    color: #999;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: poppin, Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, sans-serif;
+}
+
+.comment_list_right p span {
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.comment_list .comment_list_one {
+    padding: 20px 0px;
+    width: 1000px;
+    border-bottom:1px solid #ccc; ;
+}

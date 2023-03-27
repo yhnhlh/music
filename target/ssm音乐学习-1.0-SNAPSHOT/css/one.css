@@ -1,0 +1,214 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+#main {
+	overflow: hidden;
+	width: 1300px;
+	height: 520px;
+	margin: auto;
+	background: linear-gradient(#f2f2f2, #fafafa);
+	position: relative;
+}
+
+#main #title {
+	height: 70px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 70px;
+	color: #333333;
+	margin-top: 40px;
+	position: relative;
+	top: -15px;
+}
+
+#main #title span {
+	margin-left: 10px;
+}
+
+#main #nav {
+	width: 500px;
+	margin: auto;
+}
+
+#main #nav ul {
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+
+}
+
+#main #nav ul li {
+	overflow: hidden;
+	position: relative;
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+}
+
+#main #nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+#main #nav ul li a:hover {
+	color: #7dd1a9;
+}
+
+#main #lunbo {
+	height: 260px;
+	width: 1040px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#main #lunbo ul {
+	width: 2520px;
+	height: 260px;
+	position: absolute;
+
+}
+
+#main #lunbo ul li {
+
+	position: relative;
+	height: 200px;
+	width: 200px;
+	list-style: none;
+	margin-right: 10px;
+	float: left;
+
+}
+
+#lunbomain li span {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 0px;
+	transition: .3s linear;
+}
+
+#lunbomain li span:first-child {
+	overflow: hidden;
+}
+
+#main #pic {
+	position: absolute;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	opacity: 0;
+	transition: all .5s linear;
+}
+
+#main #lunbo ul li img {
+	transition: all .3s linear;
+}
+
+#main #lunbo ul li:hover img {
+	transform: scale(1.05);
+}
+
+#main #lunbo ul li:hover #pic {
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+#main #lunbo ul li:hover span {
+	background: rgba(50, 50, 50, 0.2);
+}
+
+#lunbomain li p a {
+	text-decoration: none;
+	color: black;
+}
+
+#lunbomain li p a:hover {
+	color: #7dd1a9;
+}
+
+#main img {
+	height: 200px;
+	height: 200px;
+}
+
+#lunbo ul li p {
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 200px;
+	line-height: 25px;
+}
+
+#lunbo ul li p span {
+	color: #9f9e9f;
+}
+
+#main {
+	position: relative;
+	
+}
+
+#main #left {
+	position: absolute;
+	z-index: 1;
+	top: 200px;
+	left: -122px;
+	width: 80px;
+	height: 100px;
+}
+
+#main #right {
+	position: absolute;
+	right: 0px;
+	top: 200px;
+	z-index: 1;
+	width: 80px;
+	left: 1340px;
+	height: 100px;
+}
+
+#main #navdian a {
+	height: 50px;
+	margin: 10px;
+}
+
+#main #navdian a:hover span {
+	background-color: #afafaf;
+}
+#main #navdian a span {
+	list-style: none;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #e1e1e1;
+	border-radius: 50%;
+	margin: 20px 0px;
+	margin-top: 30px;
+
+}
+
+#main #navdian {
+	margin: 25px;
+	width: 100px;
+	margin-left: 600px;
+	background-color: #fafafa;
+	height: 55px;
+	overflow: hidden;
+}
+
+#main #lunbo ul li p:last-child {
+	position: absolute;
+	z-index: 10;
+	top: 25px;
+	height: 10px;
+	color: #999999;
+
+}

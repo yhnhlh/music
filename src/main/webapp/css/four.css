@@ -1,0 +1,178 @@
+#fourmain {
+	height: 740px;
+	width: 1300px;
+	margin: auto;
+	background: linear-gradient(#f2f2f2, #fafafa);
+	position: relative;
+	overflow: hidden;
+}
+
+#fourmain #title {
+	position: relative;
+	top: 10px;
+	height: 70px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 70px;
+	color: #333333;
+}
+
+#fourmain #title span {
+	margin-left: 10px;
+}
+
+#fourmain ul {
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#fourlun ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+
+}
+
+#fourlun ul li:nth-child(1) {
+	margin-left: 295px;
+}
+
+#fourlun ul li:last-child {
+	margin-left: 305px;
+}
+
+#fourlun ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+#fourlun ul li a:hover {
+	color: #7dd1a9;
+}
+
+#fourlun {
+	height: 380px;
+	width: 1040px;
+	margin: auto;
+}
+
+#fourlun dl dd img {
+	width: 200px;
+	height: 200px;
+	transition: all .2s linear;
+}
+
+#fourlun dl dd {
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 25px;
+}
+
+#fourlun dl dd:last-child {
+	margin: 0px;
+}
+
+#fourlun dl {
+	overflow: hidden;
+}
+
+#fourlun p {
+	font-size: 14px;
+}
+
+#fourlun p a {
+	color: black;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+#fourlun p a:hover {
+	color: #7dd1a9;
+}
+
+#fourlun p a:last-child {
+	color: #bfc9c9;
+}
+
+#fourmain #navdian {
+	text-align: center;
+}
+
+#fourmain #navdian a {
+	height: 50px;
+	margin: 10px;
+
+
+}
+
+#fourlun #navdian a:first-child span {
+	background-color: #afafaf;
+}
+
+#fourmain #navdian a:hover span {
+	background-color: #afafaf;
+}
+
+#fourmain #navdian a span {
+	list-style: none;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #e1e1e1;
+	border-radius: 50%;
+	margin: 20px 0px;
+	margin-top: 5px;
+
+}
+
+#fourmain #left4 {
+	position: absolute;
+	z-index: 1;
+	top: 270px;
+	width: 80px;
+	left: -122px;
+	height: 100px;
+}
+
+#fourmain #right4 {
+	position: absolute;
+	right: 0px;
+	top: 270px;
+	z-index: 1;
+	width: 80px;
+	left: 1340px;
+	height: 100px;
+}
+
+#fourmain .box4 {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+#fourlun .bic {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 75px;
+	left: 75px;
+	z-index: 10;
+	opacity: 0;
+	transition: all .2s linear;
+}
+
+#fourlun span:hover #box4 {
+	transform: scale(1.05);
+}
+
+#fourlun span:hover .bic {
+	opacity: 1;
+	transform: scale(1.5);
+}
